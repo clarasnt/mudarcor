@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p>Mude a cor de fundo do site</p>
+        <br>
+        <button onclick="alterarVermelho();">Vermelho</button>
+        <button onclick="alterarAmarelo();">Amarelo</button>
+
+        <script>
+            const corpo = document.querySelector('body');
+
+            function alterarVermelho () {
+                corpo.style = 'background-color: red'
+            }
+
+            function alterarAmarelo () {
+                corpo.style = 'background-color: yellow'
+            }
+
+        </script>
+    </body>
+</html>
